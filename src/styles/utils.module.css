@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+/* text color  */
+
+.textAxl {
+  font-size: 20vw;
+}
+
+.textWhite {
+  color: #fff;
+}
+
+.textGray {
+  color: #999;
+}
+
+/* color behavior  */
+
+.colorInherit {
+  color: inherit;
+}
+
+.colorTransition {
+  transition: color 0.5s linear;
+}
+
+/* other text features */
+
+.textMono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.textClickable {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.textClickable:hover {
+  color: #fff;
+}
